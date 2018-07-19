@@ -1,0 +1,32 @@
+version: "2"
+services:
+  php:
+    image: php:7.0-fpm
+    volumes:
+       -  ./web:/web
+    environment: 
+      - TZ=Asia/Shanghai
+  nginx:
+    image: nginx:1.10.3
+    ports:
+      - 80:80
+    volumes:
+      - ./web:/web
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
+    environment: 
+      - TZ=Asia/Shanghai
+    links:
+      - php
+  mysql:
+    hostname: mysql
+    image: mysql:5.6
+    environment:
+      - TZ=Asia/Shanghai
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mysql/conf:/etc/mysql/conf.d
+      - ./mysql/data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
