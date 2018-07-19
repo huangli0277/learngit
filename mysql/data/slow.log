@@ -1,0 +1,454 @@
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 180719 13:33:53
+# User@Host: root[root] @  [172.20.0.1]  Id:     4
+# Query_time: 0.018232  Lock_time: 0.000185 Rows_sent: 3  Rows_examined: 3
+SET timestamp=1532007233;
+select SCHEMA_NAME, DEFAULT_CHARACTER_SET_NAME, DEFAULT_COLLATION_NAME from INFORMATION_SCHEMA.SCHEMATA;
+# Time: 180719 13:35:29
+# User@Host: root[root] @  [172.20.0.1]  Id:     4
+# Query_time: 0.005671  Lock_time: 0.000067 Rows_sent: 4  Rows_examined: 4
+SET timestamp=1532007329;
+select SCHEMA_NAME, DEFAULT_CHARACTER_SET_NAME, DEFAULT_COLLATION_NAME from INFORMATION_SCHEMA.SCHEMATA;
+# User@Host: root[root] @  [172.20.0.1]  Id:     4
+# Query_time: 0.004878  Lock_time: 0.000061 Rows_sent: 4  Rows_examined: 4
+SET timestamp=1532007329;
+select SCHEMA_NAME, DEFAULT_CHARACTER_SET_NAME, DEFAULT_COLLATION_NAME from INFORMATION_SCHEMA.SCHEMATA;
+# Time: 180719 13:35:38
+# User@Host: root[root] @  [172.20.0.1]  Id:     6
+# Query_time: 0.000207  Lock_time: 0.000121 Rows_sent: 0  Rows_examined: 0
+use ceshidata;
+SET timestamp=1532007338;
+SELECT DISTINCT(TABLESPACE_NAME) FROM information_schema.FILES WHERE NOT ISNULL(TABLESPACE_NAME);
+# Time: 180719 13:37:05
+# User@Host: root[root] @  [172.20.0.1]  Id:     6
+# Query_time: 0.000442  Lock_time: 0.000208 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532007425;
+select column_name, column_default from information_schema.columns where table_schema='ceshidata' and table_name='user';
+# User@Host: root[root] @  [172.20.0.1]  Id:     6
+# Query_time: 0.000643  Lock_time: 0.000231 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1532007425;
+select trigger_name, action_timing, event_manipulation, event_object_schema, event_object_table, action_statement from information_schema.triggers where event_object_schema = 'ceshidata' and event_object_table = 'user';
+# User@Host: root[root] @  [172.20.0.1]  Id:     6
+# Query_time: 0.000970  Lock_time: 0.000231 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1532007425;
+select count(distinct PARTITION_NAME) as PARTITION_NUM, cast(count(distinct SUBPARTITION_NAME) / count(distinct PARTITION_NAME) as signed) as SUBPARTITION_NUM, PARTITION_METHOD, SUBPARTITION_METHOD, PARTITION_EXPRESSION, SUBPARTITION_EXPRESSION from information_schema.PARTITIONS where TABLE_SCHEMA = 'ceshidata' and TABLE_NAME = 'user' group by TABLE_SCHEMA, TABLE_NAME;
+# Time: 180719 13:37:08
+# User@Host: root[root] @  [172.20.0.1]  Id:     8
+# Query_time: 0.000223  Lock_time: 0.000114 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1532007428;
+select * from `ceshidata`.`user`  limit 0,1000;
+# Time: 180719 13:40:27
+# User@Host: root[root] @  [172.20.0.2]  Id:    10
+# Query_time: 0.000121  Lock_time: 0.000050 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1532007627;
+select * from user;
+# Time: 180719 13:45:37
+# User@Host: root[root] @  [172.20.0.2]  Id:    11
+# Query_time: 0.000582  Lock_time: 0.000052 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1532007937;
+select * from user;
+# Time: 180719 13:45:38
+# User@Host: root[root] @  [172.20.0.2]  Id:    12
+# Query_time: 0.000230  Lock_time: 0.000092 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1532007938;
+select * from user;
+# Time: 180719 13:47:09
+# User@Host: root[root] @  [172.20.0.2]  Id:    13
+# Query_time: 0.000143  Lock_time: 0.000054 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1532008029;
+select * from user;
+# Time: 180719 13:48:55
+# User@Host: root[root] @  [172.20.0.2]  Id:    15
+# Query_time: 0.000275  Lock_time: 0.000176 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532008135;
+select * from user;
+# Time: 180719 13:49:13
+# User@Host: root[root] @  [172.20.0.2]  Id:    16
+# Query_time: 0.000138  Lock_time: 0.000052 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532008153;
+select * from user;
+# Time: 180719 13:50:34
+# User@Host: root[root] @  [172.20.0.2]  Id:    17
+# Query_time: 0.000158  Lock_time: 0.000056 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532008234;
+select * from user;
+# Time: 180719 13:51:11
+# User@Host: root[root] @  [172.20.0.2]  Id:    18
+# Query_time: 0.000498  Lock_time: 0.000043 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532008271;
+select * from user;
+# Time: 180719 13:51:28
+# User@Host: root[root] @  [172.20.0.2]  Id:    19
+# Query_time: 0.000694  Lock_time: 0.000048 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532008288;
+select * from user;
+# Time: 180719 14:07:44
+# User@Host: root[root] @  [172.20.0.2]  Id:    20
+# Query_time: 0.000829  Lock_time: 0.000071 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532009264;
+select * from user;
+# Time: 180719 14:08:10
+# User@Host: root[root] @  [172.20.0.2]  Id:    21
+# Query_time: 0.000151  Lock_time: 0.000058 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532009290;
+select * from user;
+# Time: 180719 14:12:59
+# User@Host: root[root] @  [172.20.0.2]  Id:    22
+# Query_time: 0.000114  Lock_time: 0.000042 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532009579;
+SELECT * FROM `user`;
+# Time: 180719 14:24:36
+# User@Host: root[root] @  [172.20.0.2]  Id:    23
+# Query_time: 0.000163  Lock_time: 0.000062 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010276;
+SELECT * FROM `user`;
+# Time: 180719 14:24:43
+# User@Host: root[root] @  [172.20.0.2]  Id:    24
+# Query_time: 0.000115  Lock_time: 0.000046 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010283;
+SELECT * FROM `user`;
+# Time: 180719 14:24:51
+# User@Host: root[root] @  [172.20.0.2]  Id:    25
+# Query_time: 0.000153  Lock_time: 0.000061 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010291;
+SELECT * FROM `user`;
+# Time: 180719 14:24:54
+# User@Host: root[root] @  [172.20.0.2]  Id:    26
+# Query_time: 0.000147  Lock_time: 0.000058 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010294;
+SELECT * FROM `user`;
+# Time: 180719 14:27:34
+# User@Host: root[root] @  [172.20.0.2]  Id:    27
+# Query_time: 0.000238  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010454;
+SELECT * FROM `user`;
+# Time: 180719 14:28:10
+# User@Host: root[root] @  [172.20.0.2]  Id:    28
+# Query_time: 0.000110  Lock_time: 0.000036 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010490;
+SELECT * FROM `user`;
+# Time: 180719 14:28:50
+# User@Host: root[root] @  [172.20.0.2]  Id:    29
+# Query_time: 0.000137  Lock_time: 0.000051 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010530;
+SELECT * FROM `user`;
+# Time: 180719 14:29:21
+# User@Host: root[root] @  [172.20.0.2]  Id:    30
+# Query_time: 0.000124  Lock_time: 0.000047 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010561;
+SELECT * FROM `user`;
+# Time: 180719 14:29:35
+# User@Host: root[root] @  [172.20.0.2]  Id:    31
+# Query_time: 0.000183  Lock_time: 0.000082 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010575;
+SELECT * FROM `user`;
+# Time: 180719 14:29:57
+# User@Host: root[root] @  [172.20.0.2]  Id:    33
+# Query_time: 0.000091  Lock_time: 0.000033 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010597;
+SELECT * FROM `user`;
+# Time: 180719 14:30:04
+# User@Host: root[root] @  [172.20.0.2]  Id:    34
+# Query_time: 0.000104  Lock_time: 0.000036 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010604;
+SELECT * FROM `user`;
+# Time: 180719 14:31:11
+# User@Host: root[root] @  [172.20.0.2]  Id:    35
+# Query_time: 0.000133  Lock_time: 0.000065 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010671;
+SELECT * FROM `user`;
+# Time: 180719 14:31:14
+# User@Host: root[root] @  [172.20.0.2]  Id:    36
+# Query_time: 0.000112  Lock_time: 0.000039 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010674;
+SELECT * FROM `user`;
+# Time: 180719 14:31:16
+# User@Host: root[root] @  [172.20.0.2]  Id:    37
+# Query_time: 0.000090  Lock_time: 0.000034 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010676;
+SELECT * FROM `user`;
+# Time: 180719 14:31:32
+# User@Host: root[root] @  [172.20.0.2]  Id:    38
+# Query_time: 0.000090  Lock_time: 0.000035 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010692;
+SELECT * FROM `user`;
+# Time: 180719 14:32:10
+# User@Host: root[root] @  [172.20.0.2]  Id:    39
+# Query_time: 0.000109  Lock_time: 0.000037 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010730;
+SELECT * FROM `user`;
+# Time: 180719 14:32:17
+# User@Host: root[root] @  [172.20.0.2]  Id:    40
+# Query_time: 0.000127  Lock_time: 0.000043 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010737;
+SELECT * FROM `user`;
+# Time: 180719 14:32:20
+# User@Host: root[root] @  [172.20.0.2]  Id:    41
+# Query_time: 0.000120  Lock_time: 0.000045 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010740;
+SELECT * FROM `user`;
+# Time: 180719 14:32:23
+# User@Host: root[root] @  [172.20.0.2]  Id:    42
+# Query_time: 0.000119  Lock_time: 0.000046 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010743;
+SELECT * FROM `user`;
+# Time: 180719 14:32:24
+# User@Host: root[root] @  [172.20.0.2]  Id:    43
+# Query_time: 0.000140  Lock_time: 0.000069 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010744;
+SELECT * FROM `user`;
+# Time: 180719 14:32:40
+# User@Host: root[root] @  [172.20.0.2]  Id:    45
+# Query_time: 0.000199  Lock_time: 0.000066 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010760;
+SELECT * FROM `user`;
+# Time: 180719 14:32:56
+# User@Host: root[root] @  [172.20.0.2]  Id:    46
+# Query_time: 0.000113  Lock_time: 0.000045 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010776;
+SELECT * FROM `user`;
+# Time: 180719 14:33:21
+# User@Host: root[root] @  [172.20.0.2]  Id:    47
+# Query_time: 0.000142  Lock_time: 0.000053 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010801;
+SELECT * FROM `user`;
+# Time: 180719 14:33:23
+# User@Host: root[root] @  [172.20.0.2]  Id:    48
+# Query_time: 0.000115  Lock_time: 0.000041 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010803;
+SELECT * FROM `user`;
+# Time: 180719 14:33:27
+# User@Host: root[root] @  [172.20.0.2]  Id:    49
+# Query_time: 0.000112  Lock_time: 0.000034 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010807;
+SELECT * FROM `user`;
+# Time: 180719 14:33:55
+# User@Host: root[root] @  [172.20.0.2]  Id:    50
+# Query_time: 0.000090  Lock_time: 0.000033 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010835;
+SELECT * FROM `user`;
+# Time: 180719 14:34:23
+# User@Host: root[root] @  [172.20.0.2]  Id:    51
+# Query_time: 0.000137  Lock_time: 0.000046 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010863;
+SELECT * FROM `user`;
+# Time: 180719 14:34:31
+# User@Host: root[root] @  [172.20.0.2]  Id:    52
+# Query_time: 0.000107  Lock_time: 0.000034 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010871;
+SELECT * FROM `user`;
+# Time: 180719 14:35:04
+# User@Host: root[root] @  [172.20.0.2]  Id:    53
+# Query_time: 0.000108  Lock_time: 0.000034 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010904;
+SELECT * FROM `user`;
+# Time: 180719 14:35:09
+# User@Host: root[root] @  [172.20.0.2]  Id:    54
+# Query_time: 0.000141  Lock_time: 0.000042 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010909;
+SELECT * FROM `user`;
+# Time: 180719 14:35:42
+# User@Host: root[root] @  [172.20.0.2]  Id:    55
+# Query_time: 0.000138  Lock_time: 0.000052 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010942;
+SELECT * FROM `user`;
+# Time: 180719 14:35:44
+# User@Host: root[root] @  [172.20.0.2]  Id:    56
+# Query_time: 0.000152  Lock_time: 0.000039 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010944;
+SELECT * FROM `user`;
+# Time: 180719 14:36:01
+# User@Host: root[root] @  [172.20.0.2]  Id:    57
+# Query_time: 0.000122  Lock_time: 0.000042 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010961;
+SELECT * FROM `user`;
+# Time: 180719 14:36:11
+# User@Host: root[root] @  [172.20.0.2]  Id:    58
+# Query_time: 0.000144  Lock_time: 0.000056 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532010971;
+SELECT * FROM `user`;
+# Time: 180719 14:36:52
+# User@Host: root[root] @  [172.20.0.2]  Id:    59
+# Query_time: 0.000150  Lock_time: 0.000050 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011012;
+SELECT * FROM `user`;
+# Time: 180719 14:37:14
+# User@Host: root[root] @  [172.20.0.2]  Id:    60
+# Query_time: 0.000220  Lock_time: 0.000085 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011034;
+SELECT * FROM `user`;
+# Time: 180719 14:37:16
+# User@Host: root[root] @  [172.20.0.2]  Id:    61
+# Query_time: 0.000145  Lock_time: 0.000057 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011036;
+SELECT * FROM `user`;
+# Time: 180719 14:37:22
+# User@Host: root[root] @  [172.20.0.2]  Id:    62
+# Query_time: 0.000127  Lock_time: 0.000056 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011042;
+SELECT * FROM `user`;
+# Time: 180719 14:37:38
+# User@Host: root[root] @  [172.20.0.2]  Id:    63
+# Query_time: 0.000140  Lock_time: 0.000053 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011058;
+SELECT * FROM `user`;
+# Time: 180719 14:38:00
+# User@Host: root[root] @  [172.20.0.2]  Id:    64
+# Query_time: 0.000128  Lock_time: 0.000044 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011080;
+SELECT * FROM `user`;
+# Time: 180719 14:38:35
+# User@Host: root[root] @  [172.20.0.2]  Id:    66
+# Query_time: 0.000089  Lock_time: 0.000033 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011115;
+SELECT * FROM `user`;
+# Time: 180719 14:38:42
+# User@Host: root[root] @  [172.20.0.2]  Id:    67
+# Query_time: 0.000434  Lock_time: 0.000064 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011122;
+SELECT * FROM `user`;
+# Time: 180719 14:39:30
+# User@Host: root[root] @  [172.20.0.2]  Id:    68
+# Query_time: 0.000109  Lock_time: 0.000035 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011170;
+SELECT * FROM `user`;
+# Time: 180719 14:40:04
+# User@Host: root[root] @  [172.20.0.2]  Id:    69
+# Query_time: 0.000089  Lock_time: 0.000034 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011204;
+SELECT * FROM `user`;
+# Time: 180719 14:40:26
+# User@Host: root[root] @  [172.20.0.2]  Id:    70
+# Query_time: 0.000117  Lock_time: 0.000041 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011226;
+SELECT * FROM `user`;
+# Time: 180719 14:41:07
+# User@Host: root[root] @  [172.20.0.2]  Id:    71
+# Query_time: 0.000100  Lock_time: 0.000033 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011267;
+SELECT * FROM `user`;
+# Time: 180719 14:41:20
+# User@Host: root[root] @  [172.20.0.2]  Id:    72
+# Query_time: 0.000106  Lock_time: 0.000036 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011280;
+SELECT * FROM `user`;
+# Time: 180719 14:41:25
+# User@Host: root[root] @  [172.20.0.2]  Id:    73
+# Query_time: 0.000139  Lock_time: 0.000052 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011285;
+SELECT * FROM `user`;
+# Time: 180719 14:42:49
+# User@Host: root[root] @  [172.20.0.2]  Id:    74
+# Query_time: 0.000103  Lock_time: 0.000046 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011369;
+SELECT * FROM `user`;
+# Time: 180719 14:42:50
+# User@Host: root[root] @  [172.20.0.2]  Id:    75
+# Query_time: 0.000105  Lock_time: 0.000041 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011370;
+SELECT * FROM `user`;
+# Time: 180719 14:42:54
+# User@Host: root[root] @  [172.20.0.2]  Id:    76
+# Query_time: 0.000202  Lock_time: 0.000090 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011374;
+SELECT * FROM `user`;
+# Time: 180719 14:42:59
+# User@Host: root[root] @  [172.20.0.2]  Id:    77
+# Query_time: 0.000089  Lock_time: 0.000034 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011379;
+SELECT * FROM `user`;
+# Time: 180719 14:43:17
+# User@Host: root[root] @  [172.20.0.2]  Id:    78
+# Query_time: 0.000093  Lock_time: 0.000035 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011397;
+SELECT * FROM `user`;
+# Time: 180719 14:43:40
+# User@Host: root[root] @  [172.20.0.2]  Id:    79
+# Query_time: 0.000089  Lock_time: 0.000033 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011420;
+SELECT * FROM `user`;
+# Time: 180719 14:44:05
+# User@Host: root[root] @  [172.20.0.2]  Id:    80
+# Query_time: 0.000186  Lock_time: 0.000059 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011445;
+SELECT * FROM `user`;
+# Time: 180719 14:44:13
+# User@Host: root[root] @  [172.20.0.2]  Id:    81
+# Query_time: 0.000089  Lock_time: 0.000034 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011453;
+SELECT * FROM `user`;
+# Time: 180719 14:44:49
+# User@Host: root[root] @  [172.20.0.2]  Id:    82
+# Query_time: 0.000230  Lock_time: 0.000111 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011489;
+SELECT * FROM `user`;
+# Time: 180719 14:45:38
+# User@Host: root[root] @  [172.20.0.2]  Id:    83
+# Query_time: 0.000148  Lock_time: 0.000061 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011538;
+SELECT * FROM `user`;
+# Time: 180719 14:45:52
+# User@Host: root[root] @  [172.20.0.2]  Id:    84
+# Query_time: 0.000158  Lock_time: 0.000035 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011552;
+SELECT * FROM `user`;
+# Time: 180719 14:46:04
+# User@Host: root[root] @  [172.20.0.2]  Id:    85
+# Query_time: 0.000147  Lock_time: 0.000050 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011564;
+SELECT * FROM `user`;
+# Time: 180719 14:46:31
+# User@Host: root[root] @  [172.20.0.2]  Id:    86
+# Query_time: 0.000111  Lock_time: 0.000046 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011591;
+SELECT * FROM `user`;
+# Time: 180719 14:46:36
+# User@Host: root[root] @  [172.20.0.2]  Id:    87
+# Query_time: 0.000105  Lock_time: 0.000042 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011596;
+SELECT * FROM `user`;
+# Time: 180719 14:47:01
+# User@Host: root[root] @  [172.20.0.2]  Id:    88
+# Query_time: 0.000112  Lock_time: 0.000038 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011621;
+SELECT * FROM `user`;
+# Time: 180719 14:47:46
+# User@Host: root[root] @  [172.20.0.2]  Id:    90
+# Query_time: 0.000160  Lock_time: 0.000064 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011666;
+SELECT * FROM `user`;
+# Time: 180719 14:49:57
+# User@Host: root[root] @  [172.20.0.2]  Id:    91
+# Query_time: 0.000163  Lock_time: 0.000039 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011797;
+SELECT * FROM `user`;
+# Time: 180719 14:50:40
+# User@Host: root[root] @  [172.20.0.2]  Id:    92
+# Query_time: 0.000111  Lock_time: 0.000037 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011840;
+SELECT * FROM `user`;
+# Time: 180719 14:51:44
+# User@Host: root[root] @  [172.20.0.2]  Id:    94
+# Query_time: 0.000093  Lock_time: 0.000035 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011904;
+SELECT * FROM `user`;
+# Time: 180719 14:52:19
+# User@Host: root[root] @  [172.20.0.2]  Id:    95
+# Query_time: 0.000172  Lock_time: 0.000087 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011939;
+SELECT * FROM `user`;
+# Time: 180719 14:52:50
+# User@Host: root[root] @  [172.20.0.2]  Id:    96
+# Query_time: 0.000156  Lock_time: 0.000048 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532011970;
+SELECT * FROM `user`;
+# Time: 180719 14:53:31
+# User@Host: root[root] @  [172.20.0.2]  Id:    97
+# Query_time: 0.000119  Lock_time: 0.000041 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532012011;
+SELECT * FROM `user`;
