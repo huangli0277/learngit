@@ -1,0 +1,79 @@
+[ 2018-07-20T10:23:30+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002564s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004715s ]
+
+[ 2018-07-20T10:23:32+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003337s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003005s ]
+
+[ 2018-07-20T10:34:14+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003137s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003832s ]
+
+[ 2018-07-20T22:52:12+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004241s ]
+ERR: could not find driver
+
+[ 2018-07-20T22:52:13+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003797s ]
+ERR: could not find driver
+
+[ 2018-07-20T22:53:53+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003277s ]
+ERR: could not find driver
+
+[ 2018-07-20T22:56:41+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002556s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003726s ]
+

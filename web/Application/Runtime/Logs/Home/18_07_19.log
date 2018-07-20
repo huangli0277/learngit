@@ -1,0 +1,918 @@
+[ 2018-07-19T21:55:42+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002808s ]
+
+[ 2018-07-19T21:57:29+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003650s ]
+
+[ 2018-07-19T22:11:34+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002885s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2018-07-19T22:12:59+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003404s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004473s ]
+
+[ 2018-07-19T22:24:36+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008704s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 177 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 177 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006505s ]
+
+[ 2018-07-19T22:24:43+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002638s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003997s ]
+
+[ 2018-07-19T22:24:51+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002630s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004104s ]
+
+[ 2018-07-19T22:24:54+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004740s ]
+
+[ 2018-07-19T22:26:40+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004732s ]
+
+[ 2018-07-19T22:26:53+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002702s ]
+
+[ 2018-07-19T22:26:54+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002582s ]
+
+[ 2018-07-19T22:27:34+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003650s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+
+[ 2018-07-19T22:28:10+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002954s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:28:50+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003470s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:29:21+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003041s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-07-19T22:29:35+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004343s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-07-19T22:29:50+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002876s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+
+[ 2018-07-19T22:29:57+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002584s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:30:04+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003501s ]
+
+[ 2018-07-19T22:31:11+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002486s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:31:14+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:31:16+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:31:32+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002790s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:32:10+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003679s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:32:17+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002713s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:32:20+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002064s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:32:23+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:32:24+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:32:33+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002761s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+
+[ 2018-07-19T22:32:40+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002773s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:32:56+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003288s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:33:21+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:33:23+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002531s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:33:27+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:33:55+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004341s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005087s ]
+
+[ 2018-07-19T22:34:23+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004125s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:34:31+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002664s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002914s ]
+
+[ 2018-07-19T22:35:04+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003670s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003741s ]
+
+[ 2018-07-19T22:35:09+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002820s ]
+
+[ 2018-07-19T22:35:42+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005223s ]
+
+[ 2018-07-19T22:35:44+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002563s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003061s ]
+
+[ 2018-07-19T22:36:01+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003875s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004266s ]
+
+[ 2018-07-19T22:36:11+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004670s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010396s ]
+
+[ 2018-07-19T22:36:52+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004296s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004380s ]
+
+[ 2018-07-19T22:37:14+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004945s ]
+NOTIC: [2] Invalid argument supplied for foreach() /web/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 59 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005721s ]
+
+[ 2018-07-19T22:37:16+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+NOTIC: [2] Invalid argument supplied for foreach() /web/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 59 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002379s ]
+
+[ 2018-07-19T22:37:22+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+NOTIC: [2] Invalid argument supplied for foreach() /web/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 59 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002252s ]
+
+[ 2018-07-19T22:37:38+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004276s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004546s ]
+
+[ 2018-07-19T22:38:00+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002416s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003150s ]
+
+[ 2018-07-19T22:38:22+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003015s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004115s ]
+
+[ 2018-07-19T22:38:35+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003509s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004442s ]
+
+[ 2018-07-19T22:38:42+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003301s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0008s ]
+
+[ 2018-07-19T22:39:30+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:40:04+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003761s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:40:26+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003777s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-07-19T22:41:07+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004156s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:41:20+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:41:25+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002233s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:42:49+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003425s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:42:50+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003316s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:42:54+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002566s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-07-19T22:42:59+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003353s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:43:17+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002557s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:43:40+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:44:05+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008354s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+
+[ 2018-07-19T22:44:13+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002372s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:44:49+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002693s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+
+[ 2018-07-19T22:45:38+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004194s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-07-19T22:45:52+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004101s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:46:04+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003484s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:46:31+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003537s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:46:36+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003376s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+
+[ 2018-07-19T22:47:01+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002543s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:47:08+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004670s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+
+[ 2018-07-19T22:47:46+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003449s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:49:57+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003361s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: file /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 951 行.
+NOTIC: [8] Undefined index: line /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 951 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+
+[ 2018-07-19T22:50:40+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003228s ]
+NOTIC: [8] Undefined index: file /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+NOTIC: [8] Undefined index: line /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: file /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+NOTIC: [8] Undefined index: line /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+
+[ 2018-07-19T22:51:30+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004686s ]
+NOTIC: [8] Undefined index: file /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+NOTIC: [8] Undefined index: line /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+
+[ 2018-07-19T22:51:44+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004055s ]
+NOTIC: [8] Undefined index: file /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+NOTIC: [8] Undefined index: line /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: file /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+NOTIC: [8] Undefined index: line /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+
+[ 2018-07-19T22:52:19+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004372s ]
+NOTIC: [8] Undefined index: file /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+NOTIC: [8] Undefined index: line /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: file /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+NOTIC: [8] Undefined index: line /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-07-19T22:52:50+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003324s ]
+NOTIC: [8] Undefined index: file /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+NOTIC: [8] Undefined index: line /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: file /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+NOTIC: [8] Undefined index: line /web/ThinkPHP/Library/Think/Db/Driver.class.php 第 147 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-07-19T22:53:31+08:00 ] 172.20.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002753s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003142s ]
+

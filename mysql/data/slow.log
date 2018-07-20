@@ -452,3 +452,98 @@ SELECT * FROM `user`;
 # Query_time: 0.000119  Lock_time: 0.000041 Rows_sent: 2  Rows_examined: 2
 SET timestamp=1532012011;
 SELECT * FROM `user`;
+# Time: 180720  2:23:30
+# User@Host: root[root] @  [172.20.0.2]  Id:    98
+# Query_time: 0.000172  Lock_time: 0.000042 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532053410;
+SELECT * FROM `user`;
+# Time: 180720  2:23:32
+# User@Host: root[root] @  [172.20.0.2]  Id:    99
+# Query_time: 0.000111  Lock_time: 0.000036 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532053412;
+SELECT * FROM `user`;
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 180720  2:34:14
+# User@Host: root[root] @  [172.20.0.2]  Id:     1
+# Query_time: 0.000151  Lock_time: 0.000052 Rows_sent: 2  Rows_examined: 2
+use ceshidata;
+SET timestamp=1532054054;
+SELECT * FROM `user`;
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 180720 14:54:13
+# User@Host: root[root] @  [172.20.0.1]  Id:     1
+# Query_time: 0.052488  Lock_time: 0.000624 Rows_sent: 4  Rows_examined: 4
+SET timestamp=1532098453;
+select SCHEMA_NAME, DEFAULT_CHARACTER_SET_NAME, DEFAULT_COLLATION_NAME from INFORMATION_SCHEMA.SCHEMATA;
+# Time: 180720 14:54:19
+# User@Host: root[root] @  [172.20.0.1]  Id:     3
+# Query_time: 0.006438  Lock_time: 0.006218 Rows_sent: 2  Rows_examined: 2
+use ceshidata;
+SET timestamp=1532098459;
+select * from `ceshidata`.`user`  limit 0,1000;
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 180720 14:56:38
+# User@Host: root[root] @  [172.20.0.3]  Id:     1
+# Query_time: 0.005748  Lock_time: 0.005590 Rows_sent: 2  Rows_examined: 2
+use ceshidata;
+SET timestamp=1532098598;
+select * from user;
+# Time: 180720 14:56:41
+# User@Host: root[root] @  [172.20.0.3]  Id:     2
+# Query_time: 0.000126  Lock_time: 0.000042 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1532098601;
+SELECT * FROM `user`;
+mysqld, Version: 5.6.40-log (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
